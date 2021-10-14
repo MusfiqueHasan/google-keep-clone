@@ -1,0 +1,22 @@
+.note-box{
+    width: 600px;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.note-box input{
+    border: none;
+    outline: none;
+}
+
+.note-container{
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
