@@ -4,6 +4,7 @@ import useToggle from '../../hooks/useToggle';
 import NoteList from '../Notes/NoteList';
 import AddNotes from '../AddNotes/AddNotes'
 import Search from '../Search/Search'
+import keepimg from '../images/keep_2020q4_48dp.png'
 import './Home.css'
 const Home = () => {
     const [notes, setNotes] = useState([])
@@ -27,7 +28,12 @@ const Home = () => {
     }
     return (
         <>
+
             <div className="container">
+                <h1 className='keep'>
+                    <img src={keepimg} alt="" />
+                    <span>Keep Clone</span>
+                </h1>
                 <Search handleSearchNote={setSearchText} />
             </div>
             <div className="note-container" ref={wrapperRef}>

@@ -20,3 +20,11 @@
     padding-right: 15px;
     padding-left: 15px;
 }
+.keep{
+    width: 100%;
+    text-align: center;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
